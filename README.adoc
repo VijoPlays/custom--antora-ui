@@ -2,6 +2,24 @@
 
 with a minimized Header (e.g. no Home/Products etc), but without breaking the search extension in the process. 
 
+== Using it
+
+To integrate this package, simply change your antora-playbook.yml UI bundle to:
+
+> ui: 
+  bundle:
+    url: https://github.com/VijoPlays/custom-antora-ui/releases/download/v1.1/ui-bundle.zip
+    snapshot: true
+
+Check the 'v1.1' for the latest release here, I might forget to update this file.
+
+== Comment for developers: Publishing a new bundle
+
+When creating a new release, replace the ui-bundle.zip with the assets that you've changed, create a new release and add it to it. Then change the URL in the 'Using it' section.
+
+
+
+
 Below here is the original documentation from the Fork.
 
 ---
