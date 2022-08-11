@@ -1,6 +1,6 @@
 = This repository provides a customized Antora UI
 
-... with a minimized Header (e.g. no Home/Products etc), but without breaking the search extension in the process. 
+with a minimized Header (e.g. no Home/Products etc), but without breaking the search extension in the process. 
 
 Below here is the original documentation from the Fork.
 
