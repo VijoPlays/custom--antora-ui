@@ -47,8 +47,8 @@ pre {
 b,
 dt,
 strong,
-th {
-  font-weight: var(--body-font-weight-bold);
+th {  /*THIS IS THE '<strong/> CSS ELEMENT THAT IS BEING USED. Feel free to edit this one! */
+  text-shadow: 0px 0px 20px #fff, 0px 0px 20px #fff;  /*This value is just a placeholder, can be removed if something else pops up. */
 }
 
 sub,
